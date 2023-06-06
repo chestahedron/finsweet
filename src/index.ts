@@ -4,5 +4,6 @@ import { gsap } from 'gsap';
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
+  console.log('hi');
   gsap.from('.headline', { opacity: 0, duration: 5 });
 });

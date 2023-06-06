@@ -6,4 +6,6 @@ window.Webflow ||= [];
 window.Webflow.push(() => {
   const name = 'Hansi Krüger';
   greetUser(name);
+
+  gsap.from('.headline', { opacity: 0 });
 });

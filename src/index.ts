@@ -1,11 +1,8 @@
 import { gsap } from 'gsap';
 
-import { greetUser } from '$utils/greet';
+//import { greetUser } from '$utils/greet';
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
-  const name = 'Hansi Krüger';
-  greetUser(name);
-
-  gsap.from('.headline', { opacity: 0 });
+  gsap.from('.headline', { opacity: 0, duration: 5 });
 });

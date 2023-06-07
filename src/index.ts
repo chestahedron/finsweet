@@ -5,7 +5,7 @@ gsap.registerPlugin(ScrollTrigger);
 //import { greetUser } from '$utils/greet';
 
 gsap.from('[is-ball="blue"]', {
-  x: '66dvw',
+  x: '68dvw',
   duration: 2,
   delay: 1,
   stagger: 0.3,
